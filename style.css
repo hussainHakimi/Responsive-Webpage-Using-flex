@@ -1,0 +1,56 @@
+body{
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+}
+
+/* Typography */
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #213614;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    margin-top: 0;
+}
+
+/* Layout */
+.container{
+    width: 90%;
+    max-width: 980px;
+    margin:0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+
+.container > img{
+    width: 96%;
+    height:200px; 
+    margin:auto; 
+    padding-left:15px
+}
+.columns{
+    display: flex;
+    margin: 1em 0;
+    justify-content: space-between;
+}
+.col-bg{
+    background:rgb(42, 10, 10);
+    color: #fff;
+    padding: 1em;
+}
+.col-1{
+    width: 20%;
+}
+.col-2{
+    width: 45%;
+}
+.col-3{
+    width: 70%;
+}
